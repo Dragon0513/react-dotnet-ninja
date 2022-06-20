@@ -9,7 +9,7 @@ const Home = () => {
     ])
     return ( 
         <div className="home">
-            <BlogList blogs={blogs} title="All titles!" />
+            <BlogList blogs={blogs} title="All titles!" setBlogs={setBlogs}/>
         </div>
     );
 }
